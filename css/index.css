@@ -1,0 +1,78 @@
+.topnav
+{
+	overflow: hidden;
+	background-color: darkgray;
+}
+.topnav a 
+{
+	float: left;
+	display: block;
+	color: whitesmoke;
+	text-align: center;
+	padding: 30px;
+	text-decoration: none;
+	font-family: Georgia;
+	font-size: 18px;
+}
+.topnav a:hover
+{
+	background-color: lightgray;
+	color: black;
+}
+.topnav a.active
+{
+	background-color: darkkhaki;
+	color: whitesmoke;
+	float: left;
+}
+body, html
+{
+    height: 100%;
+}
+.hero-image
+{
+	height: 100%;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.hero-text
+{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+h1
+{
+	font-family: Papyrus;
+	text-shadow: 5px 6px black;
+	font-size: 80px;
+	text-align: center;
+	padding: 30px;
+	color: darkkhaki;
+}
+.hero-text button 
+{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: whitesmoke;
+    background-color: darkgray;
+    text-align: center;
+    cursor: pointer;
+    font-family: Hoefler Text;
+}
+.hero-text button:hover 
+{
+    background-color: lightgray;
+    color: black;
+}
+audio
+{
+	float: right;
+}

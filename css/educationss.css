@@ -1,0 +1,86 @@
+.topnav
+{
+	overflow: hidden;
+	background-color: darkgray;
+}
+.topnav a 
+{
+	float: left;
+	display: block;
+	color: whitesmoke;
+	text-align: center;
+	padding: 30px;
+	text-decoration: none;
+	font-family: Georgia;
+	font-size: 18px;
+}
+.topnav a:hover
+{
+	background-color: lightgray;
+	color: black;
+}
+.topnav a.active
+{
+	background-color: darkkhaki;
+	color: whitesmoke;
+	float: left;
+}
+h1
+{
+	font-family: Papyrus;
+	text-shadow: 3px 3px black;
+	font-size: 70px;
+	text-align: center;
+	padding: 40px;
+	color: darkkhaki;
+}
+h3
+{
+	font-family: Copperplate;
+	text-shadow: 3px 3px darkkhaki;
+	font-size: 40px;
+	text-align: center;
+	color: whitesmoke;
+	padding: 40px;
+	background-color: darkgrey;
+}
+table, tr, th, td
+{
+	border: 5px solid darkgrey;
+    border-collapse: collapse;
+
+}
+th, td
+{
+    padding: 18px;
+    font-family: Garamond;
+}
+th 
+{
+ 	background-color: white;
+ 	width: 30%;
+}
+td
+{
+ 	text-align: center;
+ 	color: firebrick;
+ 	background-color: lightgray;
+}
+td:hover
+{
+ 	background-color: lightgoldenrodyellow;
+}
+h1
+{
+	font-family: Papyrus;
+	text-shadow: 3px 3px black;
+	font-size: 70px;
+	text-align: center;
+	padding: 40px;
+	color: darkkhaki;
+}
+.center
+{
+  margin-left: auto;
+  margin-right: auto;
+}
